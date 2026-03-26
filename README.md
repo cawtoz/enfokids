@@ -35,10 +35,15 @@ enfokids/
 
 Dentro de esta carpeta (`enfokids/`), clona ambos repositorios:
 
+**Opción A — HTTPS** (recomendado si no tienes SSH configurado):
+```bash
+git clone https://github.com/cawtoz/enfokids-api.git
+git clone https://github.com/cawtoz/enfokids-client.git
+```
+
+**Opción B — SSH** (requiere tener una clave SSH vinculada a tu cuenta de GitHub):
 ```bash
 git clone git@github.com:cawtoz/enfokids-api.git
-```
-```bash
 git clone git@github.com:cawtoz/enfokids-client.git
 ```
 
