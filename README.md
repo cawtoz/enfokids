@@ -24,6 +24,7 @@ Antes de continuar, esta carpeta debe tener la siguiente estructura:
 enfokids/
 ├── docker-compose.yml
 ├── .env.example
+├── .env                ← creado a partir de .env.example (no se sube al repo)
 ├── enfokids-api/       ← repositorio del backend
 └── enfokids-client/    ← repositorio del frontend
 ```
@@ -36,6 +37,8 @@ Dentro de esta carpeta (`enfokids/`), clona ambos repositorios:
 
 ```bash
 git clone git@github.com:cawtoz/enfokids-api.git
+```
+```bash
 git clone git@github.com:cawtoz/enfokids-client.git
 ```
 
