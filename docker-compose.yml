@@ -25,6 +25,7 @@ services:
       HIBERNATE_DDL_AUTO: ${HIBERNATE_DDL_AUTO:-update}
       JWT_SECRET_KEY: ${JWT_SECRET_KEY}
       JWT_EXPIRATION_TIME: ${JWT_EXPIRATION_TIME:-86400000}
+      APP_DATA_INIT: ${APP_DATA_INIT:-false}
     ports:
       - "8080:8080"
     depends_on:
