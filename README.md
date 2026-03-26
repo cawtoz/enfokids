@@ -36,8 +36,8 @@ enfokids/
 Dentro de esta carpeta (`enfokids/`), clona ambos repositorios:
 
 ```bash
-git clone https://github.com/cawtoz/enfokids-api.git
-git clone https://github.com/cawtoz/enfokids-client.git
+git clone https://github.com/cawtoz/enfokids-api.git enfokids-api
+git clone https://github.com/cawtoz/enfokids-client.git enfokids-client
 ```
 
 > Si ya tienes los proyectos clonados, asegúrate de que estén nombrados exactamente `enfokids-api` y `enfokids-client`.
